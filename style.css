@@ -177,7 +177,7 @@ html{
          }@media (min-width: 480px) and (max-width: 690px)
          {#services-container::before
             {
-                height:10080px ;
+                height:2500px ;
               }
               
          }
