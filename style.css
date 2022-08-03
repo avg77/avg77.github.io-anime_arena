@@ -126,10 +126,52 @@ html{
         opacity: 0.9;
         background: url('http://wallpapersmug.com/download/2560x1440/781f69/fantasy-flying-city-dark-art.jpg') no-repeat center center/cover;}
 
-        @media (max-width: 768px)
+         @media (min-width: 690px) and (max-width: 768px)
         {#services-container::before
             {
                 height: 1300px;
+              }
+              
+         }
+         @media (min-width: 1000px) and (max-width: 1170px)
+         {#services-container::before
+            {
+                height:1150px ;
+              }
+              
+         }
+         @media (min-width: 900px) and (max-width: 1000px)
+         {#services-container::before
+            {
+                height:1200px ;
+              }
+              
+         }
+         @media (min-width: 850px) and (max-width: 900px)
+         {#services-container::before
+            {
+                height:1250px ;
+              }
+              
+         }
+         @media (min-width: 800px) and (max-width: 850px)
+         {#services-container::before
+            {
+                height:1270px ;
+              }
+              
+         }
+         @media (min-width: 768px) and (max-width: 800px)
+         {#services-container::before
+            {
+                height:1280px ;
+              }
+              
+         }
+         @media (min-width: 600px) and (max-width: 690px)
+         {#services-container::before
+            {
+                height:1370px ;
               }
               
          }
