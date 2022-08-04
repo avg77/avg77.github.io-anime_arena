@@ -133,13 +133,29 @@ html{
               }
               
          }
-         @media (min-width: 1000px) and (max-width: 1170px)
+         @media (min-width: 1000px) and (max-width: 2000px)
          {#services-container::before
             {
                 height:1150px ;
               }
+              .h-primary{
+                animation-name: Welcome;
+                animation-duration: 5s;
+                animation-iteration-count: 1;
+                animation-timing-function: ease-in-out;
+            }
+            @keyframes Welcome {
+                from {
+                      width: 400px;
+                }
+                to {
+                      width: 1200px;
+                }
+                
+              }
+              }
               
-         }
+         
          @media (min-width: 900px) and (max-width: 1000px)
          {#services-container::before
             {
@@ -173,8 +189,13 @@ html{
             {
                 height:1950px ;
               }
+              .h-primary{
+                font-family: 'Bree Serif', serif;
+                font-size: 3.8rem;
+                padding: 12px;
               
-         }@media (min-width: 480px) and (max-width: 690px)
+         }}
+         @media (min-width: 480px) and (max-width: 690px)
          {#services-container::before
             {
                 height:1600px ;
@@ -313,20 +334,7 @@ footer:hover{
     font-family: 'Bree Serif', serif;
     font-size: 3.8rem;
     padding: 12px;
-    animation-name: Welcome;
-    animation-duration: 5s;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in-out;
 }
-@keyframes Welcome {
-    from {
-          width: 400px;
-    }
-    to {
-          width: 1200px;
-    }
-    
-  }
 .h-secondary{
     font-family: 'Bree Serif', serif;
     font-size: 2.3rem;
